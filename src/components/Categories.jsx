@@ -11,7 +11,7 @@ const Container = styled.div`
   position: relative;
   min-height: 100vh;
   background-color: var(--lightPrimaryGreen);
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     flex-direction: column;
     margin-bottom: 100px;
     min-height: 140vh;
