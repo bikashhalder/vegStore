@@ -8,7 +8,7 @@ const Container = styled.div``;
 const Wrapper = styled.div`
   padding: 50px;
   display: flex;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     flex-direction: column;
   }
 `;

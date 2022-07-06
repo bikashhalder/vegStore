@@ -15,7 +15,7 @@ const Top = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     flex-direction: column;
   }
 `;
@@ -27,7 +27,7 @@ const TopButton = styled.button`
   background-color: ${(props) =>
     props.type === "filled" ? "black" : "transparent"};
   color: ${(props) => props.type === "filled" && "white"};
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     margin: 20px;
   }
 `;
@@ -42,7 +42,7 @@ const Bottom = styled.div`
   display: flex;
   justify-content: space-between;
   margin: 30px 0px;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     display: flex;
     flex-direction: column;
   }
@@ -54,7 +54,7 @@ const Info = styled.div`
 const Product = styled.div`
   display: flex;
   justify-content: space-between;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     flex-direction: column;
     justify-content: center;
   }
@@ -62,7 +62,7 @@ const Product = styled.div`
 const ProductDetail = styled.div`
   flex: 2;
   display: flex;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     flex-direction: column;
     justify-content: center;
   }
@@ -108,7 +108,7 @@ const Hr = styled.hr`
   margin-top: 20px;
   margin-bottom: 20px;
   width: 85%;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     width: 100%;
     margin-bottom: 40px;
   }
@@ -119,7 +119,7 @@ const Summary = styled.div`
   border-radius: 10px;
   padding: 20px;
   height: 50vh;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     flex-direction: column;
   }
 `;

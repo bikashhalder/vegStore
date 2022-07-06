@@ -9,7 +9,7 @@ const Container = styled.div`
   justify-content: space-around;
   align-items: center;
   padding-left: 30px;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     flex-direction: column;
     height: 110vh;
     padding-left: 0;
@@ -20,7 +20,7 @@ const Container = styled.div`
 const Left = styled.div`
   flex: 1;
   margin-left: 40px;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     margin-left: 0px;
     margin-bottom: -50px;
   }
@@ -28,7 +28,7 @@ const Left = styled.div`
 const Links = styled.div``;
 const Title = styled.h2`
   font-weight: 600;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     margin-top: 20px;
   }
 `;
@@ -37,14 +37,14 @@ const Item = styled.h5`
 `;
 const Center = styled.div`
   flex: 1;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     margin-right: 40px;
     margin-bottom: -50px;
   }
 `;
 const Right = styled.div`
   flex: 1;
-  /* @media only screen and (max-width: 380px) {
+  /* @media only screen and (max-width: 580px) {
     flex: none;
   } */
 `;

@@ -12,7 +12,7 @@ const Wrapper = styled.div`
   width: 40%;
   padding: 20px;
   background-color: beige;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     width: 100%;
     height: 50vh;
   }

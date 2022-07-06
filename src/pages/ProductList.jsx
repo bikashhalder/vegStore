@@ -14,12 +14,12 @@ const Container = styled.div`
 const ProductContainer = styled.div`
   display: grid;
   grid-template-columns: 15% 80%;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     grid-template-columns: 100%;
   }
 `;
 const FilterItem = styled.div`
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     margin-bottom: 30px;
   }
 `;
@@ -44,7 +44,7 @@ const FilterProduct = styled.div`
   grid-template-columns: 20% 20% 20% 20%;
   object-fit: cover;
   column-gap: 70px;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     grid-template-columns: 100%;
   }
 `;

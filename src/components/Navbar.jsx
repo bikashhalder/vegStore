@@ -13,7 +13,7 @@ const Container = styled.div`
   height: 60px;
   width: 100%;
   background-color: var(--darkSecondaryGreen);
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     width: 100%;
     height: 130px;
   }
@@ -22,21 +22,21 @@ const Wrapper = styled.div`
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     padding: 15px 15px;
   }
 `;
 
 const Left = styled.div`
   flex: 1;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     flex: 0;
   }
 `;
 
 const Center = styled.div`
   flex: 2;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     position: absolute;
     top: 70px;
   }
@@ -55,7 +55,7 @@ const SearchField = styled.div`
   padding-right: 10px;
   border: 1px solid var(--darkPrimaryGreen);
   border-radius: 15px;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     width: 80%;
   }
 `;
@@ -80,7 +80,7 @@ const Right = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     justify-content: flex-start;
     margin: 0;
   }
@@ -89,7 +89,7 @@ const MenuComponent = styled.div`
   font-size: 14px;
   cursor: pointer;
   margin-left: 35px;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     margin-left: 30px;
   }
 `;

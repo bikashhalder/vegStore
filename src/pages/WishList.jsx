@@ -8,6 +8,10 @@ const Container = styled.div``;
 const Product = styled.div`
   display: flex;
   justify-content: space-between;
+  @media only screen and (max-width: 580px) {
+    flex-direction: column;
+    justify-content: center;
+  }
 `;
 const ProductDetail = styled.div`
   flex: 1;
@@ -15,6 +19,10 @@ const ProductDetail = styled.div`
   margin-top: 20px;
   margin-left: 20px;
   margin-bottom: 20px;
+  @media only screen and (max-width: 580px) {
+    flex-direction: column;
+    justify-content: center;
+  }
 `;
 const Image = styled.img`
   width: 200px;
@@ -39,6 +47,10 @@ const PriceDetail = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  @media only screen and (max-width: 580px) {
+    flex-direction: column;
+    justify-content: center;
+  }
 `;
 const ProductAmountContainer = styled.div`
   display: flex;
