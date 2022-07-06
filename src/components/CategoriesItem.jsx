@@ -8,9 +8,8 @@ const Container = styled.div`
   padding-left: 0;
   padding-top: 0px;
   position: relative;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     margin-bottom: 40px;
-    /* height: 60vh; */
   }
 `;
 const Image = styled.img`
@@ -29,10 +28,6 @@ const Info = styled.div`
   justify-content: center;
   align-items: center;
   background-color: #0d1fed40;
-  @media only screen and (max-width: 380px) {
-    /* background-color: red;
-    bottom: 0; */
-  }
 `;
 const Title = styled.h1`
   color: var(--lightSecondaryGreen);

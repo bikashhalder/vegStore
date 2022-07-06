@@ -16,7 +16,7 @@ const Title = styled.h1`
   font-size: 70px;
   margin-bottom: 20px;
   color: var(--lightSecondaryGreen);
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     font-size: 50px;
   }
 `;
@@ -25,7 +25,7 @@ const Description = styled.div`
   font-weight: 300;
   margin-bottom: 20px;
   color: var(--lightSecondaryGreen);
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     font-size: 17px;
   }
 `;
@@ -36,7 +36,7 @@ const InputContainer = styled.div`
   display: flex;
   justify-content: space-between;
   border: 1px solid lightgray;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     justify-content: center;
     width: 80%;
     height: 50px;
@@ -47,7 +47,7 @@ const Input = styled.input`
   flex: 8;
   padding-left: 40px;
   font-size: 18px;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     padding-left: 10px;
   }
 `;
