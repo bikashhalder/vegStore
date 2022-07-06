@@ -42,7 +42,7 @@ const Slide = styled.div`
 const ImgContainer = styled.div`
   height: 100%;
   flex: 1;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     display: none;
   }
 `;
@@ -57,7 +57,7 @@ const InfoContainer = styled.div`
 const Title = styled.h1`
   font-size: 50px;
   color: black;
-  @media only screen and (max-width: 380px) {
+  @media only screen and (max-width: 580px) {
     font-size: 40px;
   }
 `;
